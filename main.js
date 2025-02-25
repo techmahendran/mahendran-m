@@ -98,7 +98,7 @@ function revealFun() {
 }
 
 let typed = new Typed("#auto-type", {
-  strings: ["Front End Developer", "Next Js Dev", "Day js Dev"],
+  strings: ["Front End Developer", "Next Js Dev"],
   typeSpeed: 100,
   backSpeed: 100,
   loop: true,
