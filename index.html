@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -57,8 +57,8 @@
 
           <div class="social-icon">
             <a href="https://github.com/techmahendran" target="_blank"
-                ><i class="fa fa-github"></i
-              ></a>
+              ><i class="fa fa-github"></i
+            ></a>
             <a href="https://www.linkedin.com/in/techmahendran/" target="_blank"
               ><i class="fa fa-linkedin-square"></i
             ></a>
@@ -71,22 +71,32 @@
         <div class="my_content">
           <h1>mahendran</h1>
           <h2>I'm <span id="auto-type"></span></h2>
-
-          <!-- social media -->
-          <div class="social_icon">
-            <ul class="d-flex flex-wrap">
-              <a href="https://github.com/techmahendran" target="_blank"
-                ><i class="fa fa-github"></i
-              ></a>
+          <div class="icon-download">
+            <!-- social media -->
+            <div class="social_icon">
+              <ul class="d-flex flex-wrap">
+                <a href="https://github.com/techmahendran" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/techmahendran/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin-square"></i
+                ></a>
+              </ul>
+            </div>
+            <div style="margin-top: 80px; margin-left: 10px;">
               <a
-                href="https://www.linkedin.com/in/techmahendran/"
+                href="/mahendran_cv.pdf"
                 target="_blank"
-                ><i class="fa fa-linkedin-square"></i
-              ></a>
-            </ul>
+                id="downloadCvBtn"
+                class="download-btn"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
         </div>
-
         <div class="image_content">
           <img src="/Images/MY_Pic_home.JPG" alt="profile_img" />
         </div>
@@ -128,7 +138,7 @@
             <div class="bio-image">
               <img
                 src="/Language-img/visual-studio-code.jpg"
-                alt="Visual Studio Code"
+                alt="VS Code"
                 title="Visual Studio Code"
               />
               <img src="Language-img/html.png" alt="HTML5" title="HTML5" />
@@ -138,7 +148,7 @@
                 alt="Tailwind CSS"
                 title="Tailwind CSS"
               />
-              <img src="Language-img/sass.jpg" alt="SASS" title="Sass" />
+              <img src="Language-img/sass.jpg" alt="Sass" title="Sass" />
               <img
                 src="/Language-img/shadcn_ui.png"
                 alt="Shadcn UI"
@@ -146,16 +156,42 @@
               />
               <img
                 src="Language-img/javascript.jpg"
-                alt="JAVASCRIPT"
+                alt="JavaScript"
                 title="JavaScript"
               />
-              <img src="/Language-img/react.jpg" alt="REACT JS" title="React" />
-              <img src="Language-img/nextjs.png" alt="NEXT JS" title="Nextjs" />
-               <img src="Language-img/nodejs.png" alt="Node JS" title="Nodejs" /> 
-               <!-- <img src="Language-img/Express.png" alt="Express JS" title="Expressjs" />  -->
-              <img src="Language-img/git.jpg" alt="GIT" title="Git" />
-              <img src="Language-img/github.png" alt="GITHUB" title="GitHub" />
-              <img src="Language-img/vercel.ico" alt="vercel" title="Vercel" />
+              <img
+                src="/Language-img/typescript.png"
+                alt="TypeScript"
+                title="TypeScript"
+              />
+              <img
+                src="Language-img/react.jpg"
+                alt="React.js"
+                title="React.js"
+              />
+              <img
+                src="Language-img/nextjs.png"
+                alt="Next.js"
+                title="Next.js"
+              />
+              <img
+                src="Language-img/mongodb.png"
+                alt="MongoDB"
+                title="MongoDB"
+              />
+              <img
+                src="Language-img/express.png"
+                alt="Express.js"
+                title="Express.js"
+              />
+              <img
+                src="Language-img/nodejs.png"
+                alt="Node.js"
+                title="Node.js"
+              />
+              <img src="Language-img/git.jpg" alt="Git" title="Git" />
+              <img src="Language-img/github.png" alt="GitHub" title="GitHub" />
+              <img src="Language-img/vercel.ico" alt="Vercel" title="Vercel" />
             </div>
           </div>
         </div>
@@ -187,20 +223,21 @@
                 <div class="service-content">
                   <h2>Webworks</h2>
                   <p>
-                    I have over 3.9 years of experience in developing front-end
-                    static websites and deploying them to production servers. My
-                    professional journey includes working on:
-                    <span class="iFACT_text">iFACT</span>
-                    <span style="font-weight: 600"
-                      >– Integrated Freight Forwarding, Agency, and Cargo</span
-                    >
-                    <spna class="iFACT_text"
-                      >WIZ Freight Tech & R&D Centre</spna
-                    >
-                    <span style="font-weight: 600">– Wiz Freight & CRM</span> These projects focused on the online
-                    freight forwarding domain, where I contributed to building
-                    scalable UI components, improving user experience, and
-                    delivering high-performance front-end solutions.
+                    I have
+                    <strong>nearly 4 years of professional experience</strong>
+                    building scalable, responsive, and high-performance web
+                    applications using
+                    <strong
+                      >React.js, Next.js, TypeScript, Redux Toolkit, Tailwind
+                      CSS, and Material UI</strong
+                    >. I have contributed to enterprise projects like
+                    <span class="iFACT_text">Impacteers</span> and
+                    <span class="iFACT_text"
+                      >iFACT – Integrated Freight Forwarding</span
+                    >, where I developed reusable UI components, integrated REST
+                    APIs, optimized application performance, and delivered
+                    seamless user experiences across desktop, tablet, and mobile
+                    devices.
                   </p>
                 </div>
               </div>
@@ -208,10 +245,12 @@
                 <div class="service-content">
                   <h2>Design</h2>
                   <p>
-                    <img src="Images/Work/figma.jpg" alt="figma" width="30px" />
-                    Experienced with Figma for UI design and prototyping — I can
-                    efficiently design user-friendly interfaces and create
-                    interactive prototypes to bring ideas to life.
+                    <img src="Images/Work/figma.jpg" alt="Figma" width="30" />
+                    Experienced in translating modern Figma designs into
+                    pixel-perfect, responsive web applications. Skilled in
+                    building reusable UI components with Tailwind CSS, Material
+                    UI, and ShadCN UI while ensuring accessibility, performance,
+                    and a consistent user experience across all devices.
                   </p>
                 </div>
               </div>
@@ -234,6 +273,7 @@
               <button class="btn" data-name="JavaScript">JavaScript</button>
               <button class="btn" data-name="React">React</button>
               <button class="btn" data-name="Next_Js">Next Js</button>
+              <button class="btn" data-name="MERN_Stock">MERN Stock</button>
             </div>
 
             <div class="projects-cards">
@@ -593,6 +633,34 @@
                   GitHub
                 </a>
               </div>
+
+              <div class="card reveal" data-name="MERN_Stock">
+                <div class="work-img">
+                  <a
+                    href="https://mern-todo-application-wb1h.onrender.com/"
+                    class="project-img"
+                    target="_blank"
+                  >
+                    <img src="Images/Work/task_manager.png" />
+                  </a>
+                </div>
+                <a
+                  href="https://mern-todo-application-wb1h.onrender.com/"
+                  class="project-show"
+                  target="_blank"
+                >
+                  <i class="fas fa-eye"></i>
+                  Project
+                </a>
+                <a
+                  href="https://github.com/techmahendran/mern-todo-crud-app"
+                  class="show-github"
+                  target="_blank"
+                >
+                  <i class="fa fa-github"></i>
+                  GitHub
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -621,7 +689,8 @@
               <span class="text-color mr-1">Phone:</span>+91 8608120316
             </div>
             <div class="contact-box mr-1 mb-20 text-center">
-              <span class="text-color mr-1">Address:</span>Burma Colony, Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096
+              <span class="text-color mr-1">Address:</span>Burma Colony,
+              Industrial Estate, Perungudi, Chennai, Tamil Nadu 600096
             </div>
           </div>
         </div>

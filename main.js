@@ -6,6 +6,7 @@ const arrowUpBtn = document.querySelector(".arrow-up .scroll-upbtn");
 
 const project_list_Btns = document.querySelectorAll(".projects-list button");
 const cards = document.querySelectorAll(".card");
+const downloadCvBtn = document.getElementById("downloadCvBtn");
 
 // open nav event
 barIcon.addEventListener("click", () => {
@@ -97,8 +98,28 @@ function revealFun() {
   }
 }
 
+if (downloadCvBtn) {
+  downloadCvBtn.addEventListener("click", function () {
+    console.log("Download CV clicked");
+
+    if (downloadCvBtn) {
+      downloadCvBtn.addEventListener("click", function () {
+        trackCTAClick({
+          ctaName: "download-cv",
+          ctaType: "hero-cta",
+          additionalData: {
+            section: "hero",
+            target: "downloadcv",
+            style: "primary",
+          },
+        });
+      });
+    }
+  });
+}
+
 let typed = new Typed("#auto-type", {
-  strings: ["Front End Developer", "Next Js Dev"],
+  strings: ["React Js Developer", "Next Js Developer", "MERN Stack Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   loop: true,

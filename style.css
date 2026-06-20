@@ -73,7 +73,20 @@ body#bg-img::before {
   border-radius: 50%;
   box-shadow: 0px 3px 4px 2px green;
 }
+.download-btn {
+  display: inline-block;
+  background-color: #2563eb; /* bg-primary-600 */
+  color: #fff;
+  padding: 12px 32px; /* py-3 px-8 */
+  border-radius: 12px; /* rounded-lg */
+  font-weight: 600; /* font-semibold */
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
 
+.download-btn:hover {
+  background-color: #1d4ed8; /* bg-primary-700 */
+}
 /* nav styles */
 nav ul {
   z-index: 1;
@@ -158,6 +171,10 @@ main {
 }
 .social_icon {
   margin-top: 80px;
+}
+.icon-download {
+  display: flex;
+  align-items: center;
 }
 
 .social_icon ul a {
